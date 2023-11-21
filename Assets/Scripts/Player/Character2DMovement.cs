@@ -280,7 +280,7 @@ public class Character2DMovement : MonoBehaviour
             animator.SetBool("Crouch", crouch);
             animator.SetBool("Grounded", grounded);
             animator.SetBool("Jump", jump);
-            animator.SetBool("Falling", falling);
+            animator.SetBool("Fall", falling);
         }
     }
 }
